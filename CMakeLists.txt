@@ -23,7 +23,7 @@ list(REMOVE_ITEM APPLICATIONS ${WORDINPUT})
 foreach(APP ${APPLICATIONS})
 
     # Use basename (no path, no extension) of .cpp file for application name
-    get_filename_component(APPBASENAME "${APP}" NAME_WLE)
+    get_filename_component(APPBASENAME "${APP}" NAME_WE)
 
 	message("Generating target ${APPBASENAME}")
 
